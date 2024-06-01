@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import imageHeader1 from "../assets/img/Renault-logo-500x281.png";
+import imageHeader2 from "../assets/img/renault-logo-header.jpg";
 
 const navigation = [
   { name: "Aktuell", href: "./Aktuell" },
@@ -31,8 +33,8 @@ export default function Header() {
             <span className="sr-only">Renault</span>
             <img
               className="h-12 w-auto"
-              src="./src/assets/img/renault-logo-header.jpg"
-              alt=""
+              src={imageHeader1}
+              alt="header-image"
             />
           </a>
         </div>
@@ -79,7 +81,7 @@ export default function Header() {
               <span className="sr-only">Renault</span>
               <img
                 className="h-8 w-auto"
-                src="./src/assets/img/Renault-logo-500x281.png"
+                src={imageHeader2}
                 alt="renault image"
               />
             </a>
