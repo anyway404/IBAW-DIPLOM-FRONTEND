@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import imageLogo from "../assets/img/renault-logo-header.jpg";
 
 export default function Login() {
   const [username, setUsername] = useState("");
@@ -46,7 +47,7 @@ export default function Login() {
                 <div className="max-w-[320px]  py-5 ml-2 ">
                   <img
                     className="w-[192x] h-[76px] "
-                    src="../src/assets/img/renault-logo-header.jpg"
+                    src={imageLogo}
                     alt="renault-logo"
                   />
                 </div>
