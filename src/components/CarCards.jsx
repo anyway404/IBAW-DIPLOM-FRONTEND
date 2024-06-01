@@ -42,7 +42,7 @@ const CarCards = () => {
             className="border shadow-lg rounded-lg hover:scale-105 duration-300 "
           >
             <img
-              src={item.image}
+              src={item.url}
               alt={item.name}
               className="w-fll h-[300px] object-cover rounded-t-lg m-auto max-w-[400px] "
             />

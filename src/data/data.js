@@ -1,7 +1,5 @@
 import image1 from "../assets/img/dacia.jagger.jpg";
 import image2 from "../assets/img/dacia.sandero.jpg";
-import image3 from "../assets/img/Renault-logo-500x281.png";
-import image4 from "../assets/img/renault-logo-header.jpg";
 import image5 from "../assets/img/renault.clio.jpg";
 import image6 from "../assets/img/renault.koleos.jpg";
 import image7 from "../assets/img/renault.master_gross.jpg";
@@ -20,7 +18,7 @@ export const data = [
     year: "2018",
     km: "68500",
     use: "Mietwagen",
-    image: { image11 },
+    url: image11,
   },
   {
     brand: "Renault",
@@ -30,7 +28,7 @@ export const data = [
     year: "2018",
     km: "78100",
     use: "Mietwagen",
-    image: { image8 },
+    url: image8,
   },
   {
     brand: "Renault",
@@ -40,7 +38,7 @@ export const data = [
     year: "2019",
     km: "43800",
     use: "Mietwagen",
-    image: { image7 },
+    url: image7,
   },
   {
     brand: "Renault",
@@ -50,7 +48,7 @@ export const data = [
     year: "2015",
     km: "143876",
     use: "Mietwagen",
-    image: { image10 },
+    url: image10,
   },
   {
     brand: "Renault",
@@ -60,7 +58,7 @@ export const data = [
     year: "2018",
     km: "41500",
     use: "Ersatzwagen",
-    image: { image9 },
+    url: image9,
   },
 
   {
@@ -71,7 +69,7 @@ export const data = [
     year: "2020",
     km: "38700",
     use: "Ersatzwagen",
-    image: { image12 },
+    url: image12,
   },
   {
     brand: "Renault",
@@ -81,7 +79,7 @@ export const data = [
     year: "2021",
     km: "20650",
     use: "Ersatzwagen",
-    image: { image6 },
+    url: image6,
   },
   {
     brand: "Renault",
@@ -91,7 +89,7 @@ export const data = [
     year: "2023",
     km: "8500",
     use: "Ersatzwagen",
-    image: { image5 },
+    url: image5,
   },
   {
     brand: "Dacia",
@@ -101,7 +99,7 @@ export const data = [
     year: "2023",
     km: "990",
     use: "Ersatzwagen",
-    image: { image2 },
+    url: image2,
   },
   {
     brand: "Dacia",
@@ -111,6 +109,6 @@ export const data = [
     year: "2023",
     km: "118",
     use: "Ersatzwagen",
-    image: { image1 },
+    url: image1,
   },
 ];

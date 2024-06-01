@@ -33,7 +33,7 @@ export default function Header() {
             <span className="sr-only">Renault</span>
             <img
               className="h-12 w-auto"
-              src={imageHeader1}
+              src={imageHeader2}
               alt="header-image"
             />
           </a>
@@ -81,7 +81,7 @@ export default function Header() {
               <span className="sr-only">Renault</span>
               <img
                 className="h-8 w-auto"
-                src={imageHeader2}
+                src={imageHeader1}
                 alt="renault image"
               />
             </a>
