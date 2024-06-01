@@ -41,7 +41,9 @@ export default function Example() {
   useEffect(() => {
     const fetchMeetings = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/v1/bookings/");
+        const response = await fetch(
+          "https://ibaw-diplom-backend.onrender.com/api/v1/bookings/"
+        );
         if (!response.ok) {
           throw new Error("Failed to fetch meetings");
         }

@@ -11,7 +11,7 @@ export default function Login() {
     console.log("Form submitted");
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/users/login",
+        "https://ibaw-diplom-backend.onrender.com/api/v1/users/login",
         {
           username,
           password,

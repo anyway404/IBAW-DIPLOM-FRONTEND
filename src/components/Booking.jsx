@@ -49,14 +49,17 @@ const Booking = ({ onClose }) => {
 
     try {
       // Senden der Buchungsdaten an das Backend
-      const response = await fetch("http://localhost:3000/api/v1/bookings", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(bookingData),
-        mode: "cors",
-      });
+      const response = await fetch(
+        "https://ibaw-diplom-backend.onrender.com/api/v1/bookings",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(bookingData),
+          mode: "cors",
+        }
+      );
 
       if (response.ok) {
         // Erfolgreiche Übermittlung
