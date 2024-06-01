@@ -59,7 +59,7 @@ export default function Example() {
   const deleteMeeting = async (id) => {
     try {
       const response = await fetch(
-        `http://localhost:3000/api/v1/bookings/${id}`,
+        `https://ibaw-diplom-backend.onrender.com/api/v1/bookings/${id}`,
         {
           method: "DELETE",
           headers: {
