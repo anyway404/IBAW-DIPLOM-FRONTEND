@@ -5,7 +5,7 @@ import Booking from "./Booking.jsx";
 const CarCards = () => {
   const [cards, setCards] = useState([]);
   const [showBooking, setShowBooking] = useState(false);
-  const [selectedCar, setSelectedCar] = useState(null); // Speichern Sie das ausgewählte Auto
+  const [selectedCar, setSelectedCar] = useState(null);
 
   const filterMietwagen = () => {
     const mietwagenCards = data.filter((item) => item.use === "Mietwagen");
@@ -17,7 +17,7 @@ const CarCards = () => {
   }, []);
 
   const handleBooking = (car) => {
-    setSelectedCar(car); // Speichern Sie das ausgewählte Auto
+    setSelectedCar(car);
     setShowBooking(true);
   };
 

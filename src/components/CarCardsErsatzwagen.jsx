@@ -17,7 +17,7 @@ const CarCards = () => {
   }, []);
 
   const handleBooking = (car) => {
-    setSelectedCar(car); // Speichern des ausgewählten Autos
+    setSelectedCar(car);
     setShowBooking(true);
   };
 
