@@ -24,7 +24,7 @@ const CarCards = () => {
   return (
     <div>
       {/* Display Cards */}
-      <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-12 pt-7 pl-5 pr-5 mx-20">
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 sm:grid-cols-1 md:grid-cols-2  gap-12 pt-7 pl-5 pr-5 md:mx-20 ">
         {cards.map((item, index) => (
           <div
             key={index}

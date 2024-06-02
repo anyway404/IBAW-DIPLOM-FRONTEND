@@ -30,7 +30,6 @@ const CarCards = () => {
           <option value="">Alle</option>
           <option value="Mietwagen">Mietwagen</option>
           <option value="Ersatzwagen">Ersatzwagen</option>
-          {/* Weitere Verwendungszwecke hinzufügen, falls benötigt */}
         </select>
       </div>
 
@@ -44,7 +43,7 @@ const CarCards = () => {
             <img
               src={item.url}
               alt={item.name}
-              className="w-fll h-[300px] object-cover rounded-t-lg m-auto max-w-[400px] "
+              className="w-fll h-[300px] object-fill rounded-t-lg m-auto max-w-[400px] "
             />
             <div className="ml-4 px-2 py-4">
               <p className="font-bold  ">
