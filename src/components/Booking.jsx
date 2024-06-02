@@ -99,7 +99,7 @@ const Booking = ({ onClose }) => {
         >
           X
         </button>
-        <div className="bg-white p-8 rounded">
+        <div className="bg-white p-8 rounded sm:min-w-[370px] sm:block">
           <h2 className="text-3xl font-bold py-5">Einplanen</h2>
           <form className="w-full flex flex-col py-4" onSubmit={handleSubmit}>
             <label className="font-bold" htmlFor="customer">
@@ -149,7 +149,7 @@ const Booking = ({ onClose }) => {
                 ))}
             </select>
 
-            <div className="flex">
+            <div className=" md:flex sm:block">
               <div className="mr-2">
                 <label className="p-3 my-2" htmlFor="start">
                   Von:
