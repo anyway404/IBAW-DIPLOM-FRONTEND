@@ -1,8 +1,26 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Erste Schritte
 
-Currently, two official plugins are available:
+Download Zip File von Github
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm i`
+Um alle dependencies zu installieren.
+
+
+( Render Applikation starten:
+[https://keha.onrender.com](https://keha-projekt.onrender.com/)/ )
+
+
+## weitere cmd befehle:
+
+
+### `npm run dev`
+
+App startet im Entwicklermodus\
+Öffnen Sie  [http://localhost:5173](http://localhost:5173) in Ihrem Browser.
+
+
+// muss im render Projekt eingeloggt sein, wegen dem Routing
+
+
